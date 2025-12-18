@@ -13,6 +13,7 @@ Repository ini dibuat untuk memenuhi **Tugas Mata Kuliah Keamanan Siber**.
 ## 🛠️ Teknologi yang Digunakan
 - Python
 - SQLite
+- HTML
 - Git & GitHub
 
 ## 📖 Catatan
