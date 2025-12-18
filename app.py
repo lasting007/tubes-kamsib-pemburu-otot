@@ -128,17 +128,6 @@ def edit_student(id):
 
     return render_template('edit.html', student=student, form=form)
 
-@app.route('/serangg')
-@csrf.exempt
-def serangg():
-    return render_template('serangg.html')
-
-@app.before_request
-def disable_csrf_for_attack():
-    if request.endpoint == 'serangg':
-        print("Disabling CSRF for serangg endpoint")
-        csrf._disable_on_request = True
-
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()
