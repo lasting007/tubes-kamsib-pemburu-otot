@@ -1,60 +1,20 @@
-<<<<<<< HEAD
-Proyek ini adalah aplikasi web sederhana yang dibuat dengan Flask dan SQLite.
+# Tugas Keamanan Siber  
+## Kelompok Pemburu Otot
 
-## Fitur
-- CRUD sederhana untuk entitas `Student`.
-- Templating menggunakan Flask dan Bootstrap.
-- Database menggunakan SQLite.
+## 📌 Deskripsi
+Repository ini dibuat untuk memenuhi **Tugas Mata Kuliah Keamanan Siber**.  
 
-## Teknologi
-- **Flask**: Framework web yang digunakan untuk mengembangkan aplikasi ini.
-- **Flask SQLAlchemy**: Digunakan untuk ORM dan manajemen database.
-- **Bootstrap**: Digunakan untuk styling dasar.
+## 👥 Anggota Kelompok
+- Naufal Zaki (2311102120)  
+- Reyhan Aldiansyah (2311102082)  
+- Rafi Mulya Rizqi (2311102108)  
+- Wildan Fachri Dzulfikar (2311102107)  
 
-## Persyaratan
-- Python 3.6 atau lebih baru
-- Virtual environment untuk isolasi paket
+## 🛠️ Teknologi yang Digunakan
+- Python
+- SQLite
+- HTML
+- Git & GitHub
 
-## Instalasi
-
-Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek ini secara lokal:
-
-1. **Clone repository** (jika diperlukan):
-   ```bash
-   git clone <repository-url>
-   cd project_folder
-   ```
-
-2. **Buat virtual environment**:
-   ```bash
-   python3 -m venv .venv
-   ```
-
-3. **Aktifkan virtual environment**:
-   ```bash
-   source .venv/bin/activate
-   ```
-
-4. **Instal dependensi**:
-   ```bash
-   pip install flask flask_sqlalchemy
-   ```
-
-5. **Jalankan aplikasi**:
-   ```bash
-   python app.py
-   ```
-
-6. **Akses aplikasi**:
-   Buka browser dan akses:
-   ```
-   http://127.0.0.1:5000
-   ```
-
-## Struktur Proyek
-- `app.py`: File utama aplikasi yang berisi logika backend Flask.
-- `templates/`: Folder untuk file HTML yang digunakan dalam aplikasi.
-=======
-# tubes-kamsib-pemburu-otot
-Tubes KamSib Kelompok Pemburu Otot
->>>>>>> 91ca9629cb6602d98ed0bcf0c4bcb5f7de72f86d
+## 📖 Catatan
+Repository ini digunakan **khusus untuk keperluan akademik** dan pembelajaran keamanan siber.
