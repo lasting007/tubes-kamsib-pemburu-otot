@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Proyek ini adalah aplikasi web sederhana yang dibuat dengan Flask dan SQLite.
 
 ## Fitur
@@ -53,3 +54,7 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek ini s
 ## Struktur Proyek
 - `app.py`: File utama aplikasi yang berisi logika backend Flask.
 - `templates/`: Folder untuk file HTML yang digunakan dalam aplikasi.
+=======
+# tubes-kamsib-pemburu-otot
+Tubes KamSib Kelompok Pemburu Otot
+>>>>>>> 91ca9629cb6602d98ed0bcf0c4bcb5f7de72f86d
