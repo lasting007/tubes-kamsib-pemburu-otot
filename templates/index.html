@@ -8,12 +8,18 @@
 <body>
     <div class="container mt-5">
         <h1>Students</h1>
+
+        <a href="{{ url_for('logout') }}" class="btn btn-danger mb-3">Logout</a>
+
         <form action="/add" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
             <input type="text" name="name" placeholder="Name" required>
             <input type="number" name="age" placeholder="Age" required>
             <input type="text" name="grade" placeholder="Grade" required>
             <button type="submit" class="btn btn-primary">Add Student</button>
         </form>
+
         <table class="table mt-3">
             <thead>
                 <tr>
@@ -26,12 +32,15 @@
             <tbody>
                 {% for student in students %}
                 <tr>
-                    <td>{{ student.name|safe }}</td>
+                    <td>{{ student.name}}</td>
                     <td>{{ student.age }}</td>
                     <td>{{ student.grade }}</td>
                     <td>
+                        <form action="/delete/{{ student.id }}" method="POST" style="display:inline;">
+                            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
                         <a href="/edit/{{ student.id }}" class="btn btn-warning">Edit</a>
-                        <a href="/delete/{{ student.id }}" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
                 {% endfor %}

