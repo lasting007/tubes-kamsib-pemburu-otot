@@ -3,19 +3,12 @@
 
 ## 📌 Deskripsi
 Repository ini dibuat untuk memenuhi **Tugas Mata Kuliah Keamanan Siber**.  
-Project ini berisi implementasi dan eksperimen terkait konsep keamanan siber sesuai dengan ketentuan tugas yang diberikan oleh dosen.
 
 ## 👥 Anggota Kelompok
-- Nama Anggota 1  
-- Nama Anggota 2  
-- Nama Anggota 3  
-- Nama Anggota 4  
-
-## 📂 Struktur Project
-- `src/` : Source code utama
-- `database/` : File database (jika ada)
-- `docs/` : Dokumentasi pendukung
-- `README.md` : Dokumentasi project
+- Naufal Zaki (2311102120)  
+- Reyhan Aldiansyah (2311102082)  
+- Rafi Mulya Rizqi (2311102108)  
+- Wildan Fachri Dzulfikar (2311102107)  
 
 ## 🛠️ Teknologi yang Digunakan
 - Python
